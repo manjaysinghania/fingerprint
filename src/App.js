@@ -12,10 +12,10 @@ function App() {
     <div className="App">
        <Heading/>
        <Routes>
-          <Route path="/" element={<Hero/>}></Route>
-          <Route path="/About" element={<About/>}></Route>
-          <Route path="/Login" element={<Login/>}></Route>
-          <Route path="/Register" element={<Register/>}></Route>
+          <Route path="/" element={<Hero/>} className="xs:grid-cols-1"></Route>
+          <Route path="/About" element={<About/>} className="xs:grid-cols-1"></Route>
+          <Route path="/Login" element={<Login/>} className="xs:grid-cols-1"></Route>
+          <Route path="/Register" element={<Register/>} className="xs:grid-cols-1"></Route>
        </Routes>
        
     </div>
